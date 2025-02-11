@@ -1,0 +1,58 @@
+body{
+  background-image: url("christmas.png");
+
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1{
+    color: #debc00
+}
+
+h2{
+    color: #e22c2c
+}
+
+p{
+    color: white
+}
+
+a{
+    background-color: antiquewhite;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px
+    cursor pointer;
+}
+
+hr{
+    border: 2px solid #ff0000;
+border-radius: 15px;
+}
+
+h1{
+    text-align: center
+}
+
+h1{
+    font-size: 50px
+}
+
+p{
+    text-align: center
+}
+
+h2{
+    font-size: 28px
+}
+
+h2{
+    text-align: center
+}

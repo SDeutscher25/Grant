@@ -1,0 +1,49 @@
+body{
+    background-color: red;
+    color: #ffffff;
+  background-image: url("snowman.png");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+    color: #b74055
+}
+h2{
+    color: aqua
+}
+th{
+    color: floralwhite;
+    font-size: x-large;
+}
+
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%
+}
+
+td, th{
+   border: 1px solid #dddddd;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: #dddddd
+}
+
+a{
+    background-color: antiquewhite;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px
+    cursor pointer;
+}
+
+
