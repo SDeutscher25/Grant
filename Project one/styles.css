@@ -1,0 +1,52 @@
+
+body{
+    background-color: darkorange;
+}
+
+h1{
+    text-align: center
+    
+}
+
+h2{
+  font-size: 20px;  
+    text-align: center
+}
+
+h3{
+    font-size: 20px;
+    text-align: center
+}
+
+h4{
+    font-size: 20px;
+    text-align: center
+}
+
+h5{
+    font-size: 20px;
+    text-align: center
+}
+hr{
+    border: 2px solid blue;
+border-radius: 15px;
+}
+
+p{text-align: center}
+
+img{
+    border: 5px solid blue;
+    height: 150px
+    
+}
+h2{
+    color: brown
+}
+
+h3{
+    color:darkgreen
+}
+
+h4{
+    color:cadetblue
+}
