@@ -19,6 +19,44 @@ tr:nth-child(even){
 }
 
 td, th{
-   border: 1px solid #dddddd;
-    padding: 8px;
+   border: 10px solid #dddddd;
+    padding: 10px;
+}
+
+th{
+    color: floralwhite;
+    font-size: x-large;
+}
+
+td{
+    color: rgb(255, 177, 0)
+}
+
+h1{
+    text-align: center; 
+}
+
+.myDiv{
+    border: 5px outset #3c00ff;
+    background-color: #ff0009
+}
+
+li{
+    color: #ffab09
+}
+
+li{
+    text-align: center
+}
+
+p{
+    text-align: center;
+}
+
+li{
+    font-size: 20px
+}
+
+h1{
+    font-size: 71px
 }
