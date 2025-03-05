@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(star%20background.png);
+    width: 600px;
+    margin: auto;
+}
+
+p{
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+}
+
+nav li {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;    
+}
+
+.photo img {
+    width: 200px;
+    border-radius: 25px;  
+}
+
+.thumbs img {
+    height: 101px;
+    border-radius: 10px;    
+}
+
+.droid {
+    background-color: dimgray;
+    padding: 5px;
+    margin: 2em;
+    border: 2px white;
+    border-radius: 5px;
+}
+
+.droid .photo {
+    float: left;
+    margin: 1em;
+}
+
+.droid:nth-child(even) .photo {
+   float: right;
+}
+
+.desc {
+    margin: 1ec;
+}
+
+.droid .thumbs {
+   clear: left;
+}
+
+.copyrightNotice{
+    text-align: center;
+    color: white;
+}
+
+.thumbs{
+    color: white;
+}
