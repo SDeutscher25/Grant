@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Thanksgiving Match Game</title>
+
+        <link href="https://fonts.googleapis.com/css2?family=Sniglet&display=swap" rel="stylesheet" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript" src="logic.js"></script>
+        <link rel="stylesheet" href="styles.css" />
+        <style>
+        body {
+			text-align: center;
+			background-image: url('Background.png');
+			background-size: 100%;
+		}
+
+		h1 {
+			font-family: 'Sniglet', cursive;
+			color: #44ccff;
+			margin: 10px;
+		}
+
+		#game-wrapper {
+			margin: auto;
+			margin-top: 40px;
+			padding: 20px;
+			width: 770px;
+			background-color: #818181                          ;
+			border-radius: 20px;
+			border: 2px solid #000000;
+		}
+
+		.card {
+			position: absolute;
+			height: 100%;
+			width: 100%;
+			backface-visibility: hidden;
+		}
+
+		.card_front {
+			background-image: linear-gradient(lightblue, black);
+		}
+
+		.card_back {
+			background: white;
+			transform: rotateY(180deg);
+		}
+
+		.card_back img {
+			width: 80px;
+			height: 80px;
+			margin-top: 10px;
+		}
+
+
+		.is-flipped {
+			transform: rotateY(180deg);
+		}
+
+		a {
+			font-family: 'Sniglet', cursive;
+			background-color: orange;
+			display: block;
+			padding: 10px;
+			margin: 10px;
+		}
+	</style>
+</head>
+
+    <body>
+        <div id="game-wrapper">
+            <h1>Plane Matching Game</h1>
+            <div id="match-grid"></div>
+            <a onclick="start()">RESTART</a>
+        </div>
+
+        <script>
+            var images = [
+                "a10.png",
+				"a10closeup.png",
+				"a340.png",
+				"a220.png",
+				"a350.png",
+				"AC130.png",
+				"b747.png",
+				"b767.png",
+				"b777.png",
+				"Delta767.png",
+				"deltab777.png",
+				"Emiratesa380.png",
+				"f15.png",
+				"f22.png",
+				"f35.png",
+				"f47.png",
+				"United757NY.png",
+				"Unitedb787.png",
+            ];
+            start();
+        </script>
+    </body>
+</html>
