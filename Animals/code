@@ -1,0 +1,33 @@
+.ran:after {
+ 
+  width: 25px;
+  height: 34px;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow:
+    15px 0 #fff,
+    7px 13px #fff,
+    16px 6px #fff,
+    -2px 6px #fff;
+}
+.ran .face {
+  top: 35px;
+  left: 6px;
+  width: 25px;
+  height: 55px;
+  z-index: 5;
+  border-top: 5px solid #000000;
+  border-left: 11px solid transparent;
+  border-right: 11px solid transparent;
+  border-radius: 50%;
+}
+.ran .face:before {
+  top: -20px;
+  left: -8px;
+  z-index: 5;
+  width: 6px;
+  height: 8px;
+  background-color: #000;
+  border-radius: 50%;
+  box-shadow: 10px 0 #000;
+}
