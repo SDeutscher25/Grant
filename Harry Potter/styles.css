@@ -1,0 +1,269 @@
+.cartoon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cartoon div {
+  position: absolute;
+  box-sizing: border-box;
+}
+
+.b {
+  border: 1vmin solid black;
+}
+
+.r {
+  border-radius: 100%;
+}
+
+.hb::before,
+.ha::after {
+  content: "";
+  display: block;
+  position: absolute;
+}
+
+/****/
+.cartoon {
+  --skin: #fca;
+  --dark: #e96;
+  --hair: #630;
+  --robe: #de0404;
+  width: 80vmin;
+  height: 80vmin;
+}
+
+.cartoon::after {
+  width: 120%;
+  bottom: 0;
+  border-top: 1vmin solid #000000;
+  left: 50%;
+  transform: translate(-50%, 25%);
+}
+
+.face {
+  left: 50%;
+  top: 2%;
+  background-color: rgb(255, 217,15);
+  width: 50%;
+  height: 44%;
+  border-radius: 60% 60% 60% 60% / 50% 50% 30% 30%;
+  transform: translate(-50%, 0);
+}
+
+.eye {
+  width: 44%;
+  height: 49%;
+  background: #000000;
+  top: 33%;
+  left: 10%;
+  box-shadow: inset 0vmin -0.5vmin 0 6vmin #ffffff;
+}
+
+.eye + .eye {
+  left: auto;
+  right: 4%;
+}
+
+.mouth {
+  width: 84%;
+  height: 18%;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  transform: translate(-54%, 0) rotate(2deg);
+  top: 77%;
+  left: 49%;
+}
+
+.body {
+  width: 60%;
+  height: 40%;
+  top: 34%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border-radius: 40% / 100% 100% 0 0;
+  background: var(--robe);
+}
+
+.arm {
+  top: 45%;
+  left: 35%;
+  height: 16%;
+  width: 40%;
+  transform: translate(-50%, 0) rotate(20deg);
+  border-radius: 100% 100% 40% 40% / 200% 200% 0 0;
+  background: var(--robe);
+}
+
+.arm + .arm {
+  left: auto;
+  right: 35%;
+  transform: translate(50%, 0) rotate(-20deg);
+}
+
+.hand {
+  width: 15%;
+  height: 31%;
+  top: 50%;
+  left: 12%;
+  background-color: rgb(255, 217, 15);
+}
+
+.hand + .hand {
+  left: 73%;
+}
+
+.wand {
+  width: 53%;
+  height: 9%;
+  border-radius: 3vmin 100% 100% 3vmin;
+  transform: rotate(-70deg);
+  top: 68%;
+  right: -17%;
+  background-color: lawngreen;
+}
+
+.pants {
+  width: 26%;
+  height: 7%;
+  bottom: 20%;
+  left: 22%;
+  background: #00b9ff;
+}
+
+.pants2 {
+  width: 20%;
+  height: 13%;
+  bottom: 8%;
+  left: 26%;
+  background-color: #ffdb0f;
+}
+
+.pants3{
+ width: 20%;
+  height: 13%;
+  bottom: 8%;
+  left: 52%;
+  background-color: #ffdb0f; 
+}
+
+.pants + .pants {
+  left: auto;
+  right: 25%;
+}
+
+.shoe {
+  width: 28%;
+  left: 18.7%;
+  height: 9%;
+  bottom: 0;
+  border-radius: 200% 90% 0 5% / 400% 0 0 0;
+  background-color: #45e2ff;
+}
+
+.shoe + .shoe {
+  left: auto;
+  right: 20.5%;
+  border-radius: 90% 200% 5% 0% / 0 400% 0 0;
+}
+
+.scar {
+  width: 30px;
+  height: 36%;
+  border-left: 1.5vmin solid var(--dark);
+  border-bottom: 1.5vmin solid ;
+  top: -13%;
+  left: 86%;
+  transform: rotate(-180deg);
+  background-color: rgb(255, 217, 15);
+}
+.scar2 {
+  width: 30px;
+  height: 32%;
+  border-left: 1.5vmin solid var(--dark);
+  border-bottom: 1.5vmin solid ;
+  top: -14%;
+  left: 77%;
+  transform: rotate(-180deg);
+  background-color: rgb(255, 217, 15);
+}
+
+.scar3 {
+  width: 30px;
+  height: 32%;
+  border-left: 1.5vmin solid var(--dark);
+  border-bottom: 1.5vmin solid ;
+  top: -17%;
+  left: 67%;
+  transform: rotate(-180deg);
+  background-color: #ffdb0f;
+}
+
+.scar4 {
+  width: 30px;
+  height: 32%;
+  border-left: 1.5vmin solid var(--dark);
+  border-bottom: 1.5vmin solid ;
+  top: -20%;
+  left: 57%;
+  transform: rotate(-180deg);
+  background-color: rgb(255, 217, 15);
+}
+
+.scar5 {
+  width: 30px;
+  height: 32%;
+  border-left: 1.5vmin solid var(--dark);
+  border-bottom: 1.5vmin solid ;
+  top: -22%;
+  left: 46%;
+  transform: rotate(-180deg);
+  background-color: rgb(255, 217, 15);
+}
+
+.scar6 {
+  width: 30px;
+  height: 32%;
+  border-left: 1.5vmin solid var(--dark);
+  border-bottom: 1.5vmin solid ;
+  top: -21%;
+  left: 35%;
+  transform: rotate(-180deg);
+  background-color: rgb(255, 217, 15);
+}
+
+.scar7 {
+  width: 30px;
+  height: 32%;
+  border-left: 1.5vmin solid var(--dark);
+  border-bottom: 1.5vmin solid ;
+  top: -20%;
+  left: 24%;
+  transform: rotate(-180deg);
+  background-color: rgb(255, 217, 15);
+}
+
+.scar8 {
+  width: 30px;
+  height: 32%;
+  border-left: 1.5vmin solid var(--dark);
+  border-bottom: 1.5vmin solid ;
+  top: -17%;
+  left: 13%;
+  transform: rotate(-180deg);
+  background-color: rgb(255, 217, 15);
+}
+
+.scar9 {
+  width: 30px;
+  height: 32%;
+  border-left: 1.5vmin solid var(--dark);
+  border-bottom: 1.5vmin solid ;
+  top: -11%;
+  left: 3%;
+  transform: rotate(-180deg);
+  background-color: rgb(255, 217, 15);
+}
+
