@@ -1,0 +1,368 @@
+body {
+background-color: #163040;
+background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle opacity="0.5" fill="%23FFFFFF" cx="28.75" cy="22.338" r="0.713"/><circle opacity="0.2" fill="%23FFFFFF" cx="26.75" cy="79.443" r="0.307"/><circle opacity="0.5" fill="%23FFFFFF" cx="50" cy="41.884" r="0.308"/><circle fill="%23FFFFFF" cx="12.883" cy="42.25" r="0.367"/><circle opacity="0.4" fill="%23FFFFFF" cx="80" cy="72.818" r="0.307"/><circle opacity="0.5" fill="%23FFFFFF" cx="55.625" cy="12.375" r="0.308"/><circle opacity="0.2" fill="%23FFFFFF" cx="73.307" cy="89.375" r="0.308"/><circle opacity="0.5" fill="%23FFFFFF" cx="73" cy="53.884" r="0.308"/><circle opacity="0.5" fill="%23FFFFFF" cx="38.875" cy="89.432" r="0.385"/></svg>');
+background-size: 20rem 20rem;
+background-position: center 0;
+animation: bg 2s linear infinite;
+overflow: hodden;
+}
+.ship {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+width: 9rem;
+height: 3rem;
+margin: auto;
+animation: move 2s linear infinite alternate;
+}
+.body {
+position: relative;
+width: 100%;
+height: 100%;
+border-radius: 50%;
+background-color: #000000;
+box-shadow: inset 0 -5px 5px rgba(22, 48, 64, 0.5);
+z-index: 1000;
+}
+.eyes {
+width: 3rem;
+position: relative;
+top: 1rem;
+left: 7rem;
+animation: eyes 2s ease-in-out infinite alternate;
+}
+.eye_1, .eye_2 {
+position: absolute;
+display: block;
+width: 1.1rem;
+height: 0.8rem;
+border-radius: 50%;
+background-color: #800f0f;
+animation: eye 2s ease-in-out infinite alternate;
+}
+.eye_2 {
+right: 8rem;
+}
+.foot_1, .foot_2, .foot_3 {
+position: absolute;
+top: 1.5rem;
+width: 0.4rem;
+height: 3rem;
+border-radius: 50%;
+background: linear-gradient(rgba(227, 227, 227, 0.6), rgba(227, 227, 227, 0.3));
+opacity: 0.5;
+}
+.foot_1 {
+transform: rotate(132deg);
+top: -0.1rem;
+left: 0rem;
+}
+.foot_2 {
+top: -2rem;
+width: 2.16rem;
+left: 3.4rem;
+background: linear-gradient(rgba(227, 227, 227, 0.7) 75%, rgba(227, 227, 227, 0.3));
+opacity: 4.3;
+}
+.foot_3 {
+transform: rotate(-140deg);
+top: -8px;
+right: 0;
+background: linear-gradient(rgba(227, 227, 227, 0.6), rgba(227, 227, 227, 0.3));
+}
+.vawes {
+position: relative;
+top: -19rem;
+left: -2rem;
+width: 13rem;
+height: 25rem;
+fill: none;
+}
+.wave_1, .wave_2 {
+stroke: rgba(255, 255, 255, 0.7);
+stroke-width: -21rem;
+stroke-linecap: round;
+stroke-linejoin: round;
+stroke-dasharray: 2;
+animation: wave 2s infinite linear;
+opacity: 0;
+transform-origin: center;
+animation-delay: 0.1s;
+}
+.wave_2 {
+animation-delay: 5s;
+}
+@keyframes wave {
+from { transform: scale(0.45) rotate(0); opacity: 1; }
+to { transform: scale(1) rotate(20deg); opacity: 0;}
+}
+@keyframes move {
+from { transform: rotate(-10deg);}
+to { transform: rotate(10deg);}
+}
+@keyframes bg {
+to { background-position: center 20rem;}
+}
+@keyframes eyes {
+from { transform: translateX(-0.4rem)}
+to { transform: translateX(0.4rem)}
+}
+@keyframes eye {
+40% { transform: scaleY(1)}
+50% { transform: scaleY(0)}
+60% { transform: scaleY(1)}
+}
+
+
+
+
+
+
+
+
+
+body2 {
+background-color: #163040;
+background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle opacity="0.5" fill="%23FFFFFF" cx="28.75" cy="22.338" r="0.713"/><circle opacity="0.2" fill="%23FFFFFF" cx="26.75" cy="79.443" r="0.307"/><circle opacity="0.5" fill="%23FFFFFF" cx="50" cy="41.884" r="0.308"/><circle fill="%23FFFFFF" cx="12.883" cy="42.25" r="0.367"/><circle opacity="0.4" fill="%23FFFFFF" cx="80" cy="72.818" r="0.307"/><circle opacity="0.5" fill="%23FFFFFF" cx="55.625" cy="12.375" r="0.308"/><circle opacity="0.2" fill="%23FFFFFF" cx="73.307" cy="89.375" r="0.308"/><circle opacity="0.5" fill="%23FFFFFF" cx="73" cy="53.884" r="0.308"/><circle opacity="0.5" fill="%23FFFFFF" cx="38.875" cy="89.432" r="0.385"/></svg>');
+background-size: 20rem 20rem;
+background-position: center 0;
+animation: bg 2s linear infinite;
+overflow: hodden;
+}
+.ship2 {
+position: absolute;
+top: 423px;
+bottom: 0;
+left: -372px;
+right: 0;
+width: 9rem;
+height: 3rem;
+margin: auto;
+animation: move 2s linear infinite alternate;
+}
+.body2 {
+position: relative;
+width: 100%;
+height: 292%;
+border-radius: 50%;
+background-color: #000000;
+box-shadow: inset 0 -5px 5px rgba(22, 48, 64, 0.5);
+z-index: 1000;
+}
+.eyes2 {
+width: 3rem;
+position: relative;
+top: 1rem;
+left: 7rem;
+animation: eyes 2s ease-in-out infinite alternate;
+}
+.eye_3, .eye_4 {
+position: absolute;
+display: block;
+width: 2rem;
+height: 0.8rem;
+border-radius: 50%;
+background-color: #00d7ff;
+animation: eye 2s ease-in-out infinite alternate;
+}
+.eye_4 {
+right: 8rem;
+}
+.foot_4, .foot_5, .foot_6 {
+position: absolute;
+top: 1.5rem;
+width: 0.4rem;
+height: 3rem;
+border-radius: 50%;
+background: linear-gradient(rgba(227, 227, 227, 0.6), rgba(227, 227, 227, 0.3));
+opacity: 0.5;
+}
+.foot_4 {
+transform: rotate(196deg);
+top: 118px;
+left: 2rem;
+}
+.foot_5 {
+top: -5rem;
+width: 2.16rem;
+height: 317px;
+left: 3.4rem;
+background: linear-gradient(rgba(227, 227, 227, 0.7) 75%, rgba(227, 227, 227, 0.3));
+opacity: 4.3;
+transform: rotate(274deg);
+}
+.foot_6 {
+transform: rotate(-5deg);
+top: 126px;
+right: 55px;
+background-color: red;
+}
+.vawes2 {
+position: relative;
+top: -8rem;
+left: -2rem;
+width: 13rem;
+height: 25rem;
+fill: none;
+}
+.wave_3, .wave_4 {
+stroke: rgba(255, 255, 255, 0.7);
+stroke-width: -21rem;
+stroke-linecap: round;
+stroke-linejoin: round;
+stroke-dasharray: 2;
+animation: wave 2s infinite linear;
+opacity: 0;
+transform-origin: center;
+animation-delay: 0.1s;
+}
+.wave_4 {
+animation-delay: 5s;
+}
+@keyframes wave {
+from { transform: scale(0.45) rotate(0); opacity: 1; }
+to { transform: scale(1) rotate(20deg); opacity: 0;}
+}
+@keyframes move {
+from { transform: rotate(-10deg);}
+to { transform: rotate(10deg);}
+}
+@keyframes bg {
+to { background-position: center 20rem;}
+}
+@keyframes eyes {
+from { transform: translateX(-0.4rem)}
+to { transform: translateX(0.4rem)}
+}
+@keyframes eye {
+40% { transform: scaleY(1)}
+50% { transform: scaleY(0)}
+60% { transform: scaleY(1)}
+}
+
+
+
+
+body3 {
+background-color: #163040;
+background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle opacity="0.5" fill="%23FFFFFF" cx="28.75" cy="22.338" r="0.713"/><circle opacity="0.2" fill="%23FFFFFF" cx="26.75" cy="79.443" r="0.307"/><circle opacity="0.5" fill="%23FFFFFF" cx="50" cy="41.884" r="0.308"/><circle fill="%23FFFFFF" cx="12.883" cy="42.25" r="0.367"/><circle opacity="0.4" fill="%23FFFFFF" cx="80" cy="72.818" r="0.307"/><circle opacity="0.5" fill="%23FFFFFF" cx="55.625" cy="12.375" r="0.308"/><circle opacity="0.2" fill="%23FFFFFF" cx="73.307" cy="89.375" r="0.308"/><circle opacity="0.5" fill="%23FFFFFF" cx="73" cy="53.884" r="0.308"/><circle opacity="0.5" fill="%23FFFFFF" cx="38.875" cy="89.432" r="0.385"/></svg>');
+background-size: 20rem 20rem;
+background-position: center 0;
+animation: bg 2s linear infinite;
+overflow: hodden;
+}
+.ship3 {
+position: absolute;
+top: 423px;
+bottom: 0;
+left: -372px;
+right: 0;
+width: 9rem;
+height: 3rem;
+margin: auto;
+animation: move 2s linear infinite alternate;
+}
+.body3 {
+left: 354px;
+position: relative;
+width: 100%;
+height: 292%;
+border-radius: 50%;
+background-color: #ffffff;
+box-shadow: inset 0 -5px 5px rgba(22, 48, 64, 0.5);
+z-index: 1000;
+}
+.eyes3 {
+width: 3rem;
+position: relative;
+top: 1rem;
+left: 7rem;
+animation: eyes 2s ease-in-out infinite alternate;
+}
+.eye_5, .eye_6 {
+position: absolute;
+display: block;
+width: 5px;
+height: 2.2rem;
+border-radius: 50%;
+background-color: #13ff00;
+animation: eye 2s ease-in-out infinite alternate;
+}
+.eye_6 {
+right: 8rem;
+}
+.foot_7, .foot_8, .foot_9 {
+position: absolute;
+top: 1.5rem;
+width: 0.4rem;
+height: 3rem;
+border-radius: 50%;
+background: linear-gradient(rgba(227, 227, 227, 0.6), rgba(227, 227, 227, 0.3));
+opacity: 0.5;
+}
+.foot_7 {
+transform: rotate(196deg);
+top: 100px;
+left: 382px;
+height: 80px;
+}
+.foot_8 {
+top: 35px;
+width: 1.97rem;
+height: 299px;
+left: 401px;
+background-color: aqua;
+opacity: 4.3;
+transform: rotate(274deg);
+}
+.foot_9 {
+transform: rotate(-5deg);
+top: 114px;
+right: -313px;
+height: 80px;
+background-color: #151515;
+}
+.vawes3 {
+position: relative;
+top: -8rem;
+left: -2rem;
+width: 13rem;
+height: 122rem;
+fill: none;
+}
+.wave_5, .wave_6 {
+stroke: rgba(255, 255, 255, 0.7);
+stroke-width: 25px;
+stroke-linecap: round;
+stroke-linejoin: round;
+stroke-dasharray: 2;
+animation: wave 2s infinite linear;
+opacity: 0;
+transform-origin: center;
+animation-delay: 0.1s;
+}
+.wave_6 {
+animation-delay: 5s;
+}
+@keyframes wave {
+from { transform: scale(0.45) rotate(0); opacity: 1; }
+to { transform: scale(1) rotate(20deg); opacity: 0;}
+}
+@keyframes move {
+from { transform: rotate(-10deg);}
+to { transform: rotate(10deg);}
+}
+@keyframes bg {
+to { background-position: center 20rem;}
+}
+@keyframes eyes {
+from { transform: translateX(-0.4rem)}
+to { transform: translateX(0.4rem)}
+}
+@keyframes eye {
+40% { transform: scaleY(1)}
+50% { transform: scaleY(0)}
+60% { transform: scaleY(1)}
+}
