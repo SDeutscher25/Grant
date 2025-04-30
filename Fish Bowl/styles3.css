@@ -1,0 +1,136 @@
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: rgb(100, 100, 100);
+margin: 0;
+overflow: hidden;
+}
+.scene {
+perspective: 800px;
+}
+.cube {
+position: relative;
+width: 100px;
+transform-style: preserve-3d;
+animation: rotate 5s infinite linear;
+}
+.cube div {
+position: absolute;
+width: 100px;
+height: 100px;
+background: rgba(0, 0, 0, 0.3);
+border: 2px solid #2eff00;
+box-shadow: 0 0 20px #000000;
+transition: 0.3s;
+    border-radius: 81%;
+}
+.cube:hover div {
+box-shadow: 0 0 40px cyan;
+}
+.front { transform: translateZ(50px); }
+.back { transform: rotateY(180deg) translateZ(50px); }
+.left { transform: rotateY(-90deg) translateZ(50px); }
+.right { transform: rotateY(90deg) translateZ(50px); }
+.top { transform: rotateX(90deg) translateZ(50px); }
+.bottom { transform: rotateX(-90deg) translateZ(50px); }
+@keyframes rotate {
+0% { transform: rotateX(0) rotateY(0); }
+100% { transform: rotateX(360deg) rotateY(360deg); }
+}
+
+
+  .container
+    {
+        position: absolute;
+        left: -174%;
+        top: 35%;
+        transform: translate(-50px , -35px);
+    }
+
+  .pyramid
+    {
+        width: 117px;
+        height: 237px;
+        position: absolute;
+        margin: 50px;
+        border-radius: 15%;
+    }
+
+  .pyramid::before, .pyramid::after
+    {
+        content: '';
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border: 50px solid;
+        position: absolute;
+        
+    }
+
+  .pyramid::before
+    {
+        border-color: transparent transparent #7700ff transparent;
+        transform: scaleY(2) skewY(-40deg) rotate(45deg);
+    }
+
+  .pyramid::after
+    {
+        border-color: transparent transparent #5500b6 transparent;
+        transform: scaleY(2) skewY(40deg) rotate(-45deg);
+    }
+
+
+
+
+
+
+
+
+
+.container2
+    {
+        position: absolute;
+        left: -174%;
+        top: 35%;
+        transform: translate(-50px , -35px);
+        
+    }
+
+  .random
+    {
+        width: 117px;
+        height: 237px;
+        position: absolute;
+        margin: 50px;
+    }
+
+  .random::before, .random::after
+    {
+        content: '';
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border: 50px solid;
+        position: absolute;
+        
+    }
+
+  .random::before
+    {
+        border-color: transparent transparent #20093b transparent;
+        transform: scaleY(2) skewY(-40deg) rotate(45deg);
+    }
+
+  .random::after
+    {
+        border-color: transparent transparent #150527 transparent;
+        transform: scaleY(2) skewY(0deg) rotate(-45deg);
+    }
+
+.random
+    {
+        border-color: transparent transparent #000000 transparent;
+        transform: scaleY(2) skewY(-19deg) rotate(50deg);
+    }
