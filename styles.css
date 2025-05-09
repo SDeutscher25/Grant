@@ -1,86 +1,74 @@
-body{
-    background-color: white;
-    color: #ffffff;
-  background-image: url("marvel%20studios.png");
-  height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-position: relative;
+body {
+    width: 1905px;
 }
-
-table{
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%
-}
-
-tr:nth-child(even){
-    background-color: #dddddd
-}
-
-td, th{
-   border: 10px solid #dddddd;
-    padding: 10px;
-}
-
-th{
-    color: floralwhite;
-    font-size: x-large;
-}
-
-td{
-    color: rgb(24, 196, 196)
-}
-
-h1{
-    text-align: center; 
-}
-
-.myDiv{
-    border: 5px outset #3c00ff;
-    background-color: #4c9869
-}
-
-li{
-    color: rgb(24, 196, 196)
-}
-
-li{
-    text-align: center
-}
-
-p{
+h1 {
     text-align: center;
+    background-color: black;
+    color:white;
+    margin-left:-8px;
+    margin-right:-8px;
+    margin-top:-10px;
+    padding:5px;
+    font-size:50px;
+    height:100px;
 }
-
-li{
-    font-size: 20px
-}
-
-h1{
-    font-size: 71px
-}
-
-p{
-    font-size: 30px;
-}
-
-iframe{
-    margin-left: 650px;
-    margin-right: 650px;
-}
-
-a{
-    margin-left: 550px;
-    background-color: #3c00ff;
-    border: none;
-    color: black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
+.left {
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px
-    cursor pointer;
+    width: 634px;
+    border: 2px solid black;
+    margin: -3px;
+    background-color:#001b65;
+    color:#ffffff
+}
+.center {
+    display: inline-block;
+    width: 634px;
+    border: 2px solid black;
+    margin: -3px;
+    background-color:#ff6900;
+    color:#ffffff;
+}
+.right {
+    display: inline-block;
+    width: 634px;
+    border: 2px solid black;
+    margin: -3px;
+    background-color:#585500;
+    color:#e5ad11;
+}
+h3 {
+    text-align: center;
+    padding:5px;
+    font-size:30px;
+}
+p {
+    text-align: center;
+    padding:5px;
+    font-size:25px;
+}
+h2 {
+    text-align: center;
+    padding:5px;
+    font-size:40px;
+}
+img {
+    width:95px;
+    height:95px;
+    margin:-2px;
+    display: inline-block;
+    object-fit:cover;
+   
+   
+}
+.farleft {
+    margin-left:1px;
+}
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-left:-8px;
+    margin-right:-8px;
+    padding:5px;
+    height:100px;
 }
