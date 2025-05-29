@@ -1,0 +1,91 @@
+body {
+    width: 1905px;
+  background-image: url("cookie.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+    text-align: center;
+    background-color: #c86868;
+    color:#740606;
+    margin-left:-8px;
+    margin-right:-8px;
+    margin-top:-10px;
+    padding:5px;
+    font-size:70px;
+    height:100px;
+    font-family: cursive;
+}
+.left {
+    display: inline-block;
+    width: 634px;
+    border: 2px solid black;
+    margin: -3px;
+    background-color:#ff7b7b;
+    color:#ffffff
+}
+.center {
+    display: inline-block;
+    width: 634px;
+    border: 2px solid black;
+    margin: -3px;
+    background-color:#79dbff;
+    color:#ffffff;
+}
+.right {
+    display: inline-block;
+    width: 634px;
+    border: 2px solid black;
+    margin: -3px;
+    background-color:#d590ff;
+    color:#ffffff;
+}
+h3 {
+    text-align: center;
+    padding:5px;
+    font-size:30px;
+}
+p {
+    text-align: center;
+    padding:5px;
+    font-size:16px;
+    font-family: monospace;
+}
+h2 {
+    text-align: center;
+    padding:5px;
+    font-size:40px;
+}
+img {
+    width:95px;
+    height:95px;
+    margin:-2px;
+    display: inline-block;
+    object-fit:cover;
+   
+   
+}
+.farleft {
+    margin-left:1px;
+}
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-left:-8px;
+    margin-right:-8px;
+    padding:5px;
+    height:100px;
+}
+
+h4{
+    text-align: center;
+    font-size: large
+}
+
+li{
+    font-size: 20px;
+    font-family: cursive
+}
